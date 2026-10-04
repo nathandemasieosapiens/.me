@@ -25,6 +25,7 @@ fi
 
 ## APP - UTILS
 # brew list cloudflared &>/dev/null || brew install cloudflared
+# brew list displaylink &>/dev/null || brew install --cask displaylink
 # brew list hyperkey &>/dev/null || brew install --cask hyperkey
 # brew list maccy &>/dev/null || brew install --cask maccy
 # brew list menubarx &>/dev/null || brew install --cask menubarx
