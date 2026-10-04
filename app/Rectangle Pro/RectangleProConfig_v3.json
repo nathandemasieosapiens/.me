@@ -155,7 +155,7 @@
       "double" : 0
     },
     "gestures" : {
-      "string" : "[0,{\"flags\":0,\"trail\":3},2,{\"flags\":0,\"trail\":1},32,{\"flags\":8388608,\"trail\":0},19,{\"flags\":0,\"trail\":2},5,{\"flags\":0,\"trail\":4},35,{\"flags\":0,\"trail\":0},1,{\"flags\":0,\"trail\":4},4,{\"flags\":0,\"trail\":3},11,{\"flags\":0,\"trail\":1},10,{\"flags\":0,\"trail\":2},33,{\"flags\":8650752,\"trail\":0}]"
+      "string" : "[4,{\"flags\":0,\"trail\":3},19,{\"flags\":0,\"trail\":2},0,{\"flags\":0,\"trail\":3},33,{\"flags\":8650752,\"trail\":0},5,{\"flags\":0,\"trail\":4},35,{\"flags\":0,\"trail\":0},2,{\"flags\":0,\"trail\":1},10,{\"flags\":0,\"trail\":2},11,{\"flags\":0,\"trail\":1},1,{\"flags\":0,\"trail\":4},32,{\"flags\":8388608,\"trail\":0}]"
     },
     "hapticFeedbackOnSnap" : {
       "int" : 0
@@ -220,20 +220,20 @@
     "menuActionVisibility" : {
 
     },
+    "menuAppSpecVisibility" : {
+
+    },
     "menuCategoryVisibility" : {
       "string" : "{\"9\":{\"shown\":false,\"shownAsSubmenu\":false},\"10\":{\"shown\":false,\"shownAsSubmenu\":true},\"3\":{\"shown\":true,\"shownAsSubmenu\":true},\"11\":{\"shown\":false,\"shownAsSubmenu\":false},\"4\":{\"shown\":false,\"shownAsSubmenu\":false},\"22\":{\"shown\":true,\"shownAsSubmenu\":false},\"5\":{\"shown\":false,\"shownAsSubmenu\":true},\"12\":{\"shown\":false,\"shownAsSubmenu\":false},\"6\":{\"shown\":false,\"shownAsSubmenu\":false},\"13\":{\"shown\":false,\"shownAsSubmenu\":false},\"8\":{\"shown\":true,\"shownAsSubmenu\":true},\"14\":{\"shown\":false,\"shownAsSubmenu\":false},\"19\":{\"shown\":true,\"shownAsSubmenu\":true}}"
     },
     "menuCustomSpecVisibility" : {
 
     },
-    "menuLayoutVisibility" : {
-
-    },
     "minimumWindowHeight" : {
-      "double" : 0.10000000149011612
+      "float" : 0.1
     },
     "minimumWindowWidth" : {
-      "double" : 0.10000000149011612
+      "float" : 0.1
     },
     "missionControlDragging" : {
       "int" : 0
@@ -249,9 +249,6 @@
     },
     "moveCursorAcrossDisplays" : {
       "int" : 2
-    },
-    "moveFixedSizeToEdge" : {
-      "int" : 1
     },
     "moveResizeEventThrottling" : {
       "int" : 0
@@ -329,7 +326,7 @@
       "int" : 2
     },
     "reticleColor" : {
-      "string" : "{\"red\":0.8,\"alpha\":0.5,\"green\":0.3,\"blue\":0.2}"
+      "string" : "{\"red\":0.8,\"blue\":0.2,\"green\":0.3,\"alpha\":0.5}"
     },
     "reticleDisplayMinDist" : {
       "float" : 5
@@ -350,25 +347,25 @@
       "string" : "null"
     },
     "screenEdgeGapBottom" : {
-      "double" : 0
+      "float" : 0
     },
     "screenEdgeGapLeft" : {
-      "double" : 0
+      "float" : 0
     },
     "screenEdgeGapRight" : {
-      "double" : 0
+      "float" : 0
     },
     "screenEdgeGapTop" : {
-      "double" : 0
+      "float" : 0
     },
     "screenEdgeGapTopNotch" : {
-      "double" : 0
+      "float" : 0
     },
     "screenEdgeGapsOnMainScreenOnly" : {
       "bool" : false
     },
     "screensOrderedByX" : {
-      "int" : 3
+      "int" : 0
     },
     "scrollEdgePauseDistance" : {
       "float" : 60
@@ -397,9 +394,6 @@
     "smallerLargerOffsetV2" : {
       "float" : 20
     },
-    "smallerShrinksMaximizedHeight" : {
-      "bool" : false
-    },
     "snapEdgeMarginBottom" : {
       "float" : 5
     },
@@ -425,7 +419,7 @@
       "float" : 1680
     },
     "stageSize" : {
-      "double" : 190
+      "float" : 190
     },
     "stashAnimation" : {
       "int" : 0
@@ -508,9 +502,6 @@
     "todoSidebarWidth" : {
       "double" : 400
     },
-    "todoSidebarWidthUnit" : {
-      "int" : 1
-    },
     "togggleTodoShortcut" : {
       "string" : "null"
     },
@@ -562,11 +553,11 @@
   },
   "shortcuts" : {
     "bottomLeft" : {
-      "keyCode" : 123,
+      "keyCode" : 125,
       "modifierFlags" : 917504
     },
     "bottomRight" : {
-      "keyCode" : 125,
+      "keyCode" : 124,
       "modifierFlags" : 917504
     },
     "center" : {
@@ -577,32 +568,8 @@
       "keyCode" : 121,
       "modifierFlags" : 262144
     },
-    "centerThird" : {
-      "keyCode" : 3,
-      "modifierFlags" : 786432
-    },
-    "centerTwoThirds" : {
-      "keyCode" : 15,
-      "modifierFlags" : 786432
-    },
-    "firstThird" : {
-      "keyCode" : 2,
-      "modifierFlags" : 786432
-    },
-    "firstTwoThirds" : {
-      "keyCode" : 14,
-      "modifierFlags" : 786432
-    },
     "larger" : {
       "keyCode" : 24,
-      "modifierFlags" : 786432
-    },
-    "lastThird" : {
-      "keyCode" : 5,
-      "modifierFlags" : 786432
-    },
-    "lastTwoThirds" : {
-      "keyCode" : 17,
       "modifierFlags" : 786432
     },
     "leftHalf" : {
@@ -658,14 +625,14 @@
       "modifierFlags" : 786432
     },
     "topLeft" : {
-      "keyCode" : 126,
+      "keyCode" : 123,
       "modifierFlags" : 917504
     },
     "topRight" : {
-      "keyCode" : 124,
+      "keyCode" : 126,
       "modifierFlags" : 917504
     }
   },
-  "timestamp" : 812095347.56245,
-  "version" : "236"
+  "timestamp" : 812785663.75651,
+  "version" : "227"
 }
